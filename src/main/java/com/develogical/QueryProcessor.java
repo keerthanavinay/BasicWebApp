@@ -12,8 +12,11 @@ public class QueryProcessor {
             return "super cool person";
         }
         if (query.toLowerCase().contains("name")) {
-            return "MyTeam";
+            return "Evolution";
         }
+
+        
+    
         return "";
     }
 }
